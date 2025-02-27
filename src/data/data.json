@@ -1,0 +1,142 @@
+{
+  "Header": {
+    "title": "EMS",
+    "paragraph": "Hệ thống quản lý trường đại học."
+  },
+  "About": {
+    "paragraph": "Hệ thống quản lý trường đại học giúp số hóa toàn bộ quy trình quản lý, từ quản lý giảng viên, sinh viên, nhập điểm, lập lịch học đến giao tiếp nội bộ. Giúp giảm tải công việc hành chính và nâng cao hiệu suất quản lý. Hệ thống còn tích hợp chat real-time giữa các thành viên trong lớp, hỗ trợ trao đổi thông tin một cách nhanh chóng và hiệu quả.",
+    "Why": [
+      "Quản lý giảng viên và sinh viên dễ dàng",
+      "Nhập và quản lý điểm số chính xác",
+      "Lập kế hoạch lịch học tự động",
+      "Tích hợp trò chuyện trực tuyến giữa giảng viên và sinh viên"
+    ],
+    "Why2": [
+      "Hỗ trợ nhập điểm từ file Excel",
+      "Theo dõi tiến độ học tập của sinh viên",
+      "Thông báo tự động về lịch học và điểm số",
+      "Tích hợp thanh toán học phí trực tuyến"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-user-graduate",
+      "name": "Quản lý sinh viên",
+      "text": "Hệ thống theo dõi hồ sơ, tiến độ học tập và lịch sử điểm số của sinh viên một cách chính xác."
+    },
+    {
+      "icon": "fa fa-chalkboard-teacher",
+      "name": "Quản lý giảng viên",
+      "text": "Hỗ trợ giảng viên trong việc giảng dạy, nhập điểm và theo dõi kết quả học tập của sinh viên."
+    },
+    {
+      "icon": "fa fa-calendar-alt",
+      "name": "Quản lý lịch học",
+      "text": "Tự động lập lịch học và thông báo đến giảng viên, sinh viên, đảm bảo sắp xếp thời khóa biểu hợp lý."
+    },
+    {
+      "icon": "fa fa-comments",
+      "name": "Chat real-time",
+      "text": "Tích hợp hệ thống nhắn tin giúp giảng viên và sinh viên trao đổi thông tin nhanh chóng, hỗ trợ học tập trực tuyến."
+    },
+    {
+      "icon": "fa fa-file-excel",
+      "name": "Nhập điểm tự động",
+      "text": "Hỗ trợ nhập điểm từ file Excel hoặc nhập trực tiếp trên hệ thống, đảm bảo tính chính xác và tiện lợi."
+    },
+    {
+      "icon": "fa fa-money-check-alt",
+      "name": "Thanh toán học phí",
+      "text": "Tích hợp hệ thống thanh toán trực tuyến, giúp sinh viên nộp học phí nhanh chóng và tiện lợi."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/lecturer.jpg",
+      "text": "\"Hệ thống giúp tôi nhập điểm và quản lý sinh viên dễ dàng hơn. Tiết kiệm rất nhiều thời gian so với cách làm thủ công.\"",
+      "name": "TS. Nguyễn Văn A - Giảng viên"
+    },
+    {
+      "img": "img/testimonials/student.jpg",
+      "text": "\"Tôi có thể theo dõi điểm số và lịch học mọi lúc mọi nơi. Chat với giảng viên cũng rất tiện lợi!\"",
+      "name": "Trần Minh B - Sinh viên"
+    }
+  ],
+  "Contact": {
+    "address": "123 Đường Đại học, Thành phố A",
+    "phone": "+84 123 456 789",
+    "email": "support@universitysystem.com",
+    "facebook": "facebook.com/universitysystem",
+    "twitter": "twitter.com/universitysys",
+    "youtube": "youtube.com/universitysystem"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-user-check",
+      "title": "Quản lý tài khoản",
+      "text": "Hỗ trợ quản lý tài khoản giảng viên, sinh viên với phân quyền chi tiết."
+    },
+    {
+      "icon": "fa fa-bell",
+      "title": "Thông báo tức thì",
+      "text": "Gửi thông báo đến sinh viên về lịch học, điểm số, sự kiện quan trọng."
+    },
+    {
+      "icon": "fa fa-file-alt",
+      "title": "Hệ thống báo cáo",
+      "text": "Cung cấp các báo cáo thống kê về sinh viên, điểm số và tiến độ học tập."
+    },
+    {
+      "icon": "fa fa-laptop",
+      "title": "Giao diện trực quan",
+      "text": "Thiết kế hiện đại, dễ sử dụng cho cả giảng viên và sinh viên."
+    }
+  ]
+}

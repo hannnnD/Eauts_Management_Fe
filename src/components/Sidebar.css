@@ -1,0 +1,284 @@
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a, .sidebar button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.sidebar a:hover, .sidebar button:hover {
+  background-color: #1673d1;
+}
+
+/* Dropdown */
+.dropdown {
+  padding-left: 15px;
+}
+
+.dropdown li {
+  margin: 5px 0;
+}
+
+/* Main Content */
+.content {
+  margin-left: 255px;
+  padding: 20px;
+  width: calc(100% - 270px);
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.teacher-list-container {
+  display: flex;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #1673d1;
+  outline: none;
+}
+
+/* Table */
+.teacher-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-table th {
+  background-color: #1976D2;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.teacher-table th, 
+.teacher-table td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  transition: background 0.3s ease-in-out;
+}
+
+.teacher-table tbody tr:hover {
+  background-color: #e3f2fd;
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Gender Colors */
+.male {
+  color: #1565C0;
+  font-weight: bold;
+}
+
+.female {
+  color: #8E24AA;
+  font-weight: bold;
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.view {
+  color: #2E7D32;
+}
+
+.edit {
+  color: #F9A825;
+}
+
+.delete {
+  color: #D32F2F;
+}
+
+.delete:hover {
+  background-color: #ffebee;
+}
+
+.edit:hover {
+  background-color: #fff8e1;
+}
+
+.view:hover {
+  background-color: #e8f5e9;
+}
+
+
+/* Form */
+.teacher-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Các input nhỏ trên cùng một hàng */
+.row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.row .form-group {
+  flex: 1;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+input:focus, select:focus {
+  border-color: #1673d1;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+      width: 200px;
+      padding: 15px;
+  }
+  .content {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+  }
+  .row {
+      flex-direction: column;
+  }
+}
